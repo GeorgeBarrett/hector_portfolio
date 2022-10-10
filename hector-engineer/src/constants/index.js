@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Awards",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "So many awards. More awards than you can shake a stick at.  More awards than sticks.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Client focused",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Clients are the most important thing.  They make me money but other than that I don't care about them much.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Quality guarenteed",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "The end result will blow your socks off and then blow all the socks out of your sock drawer.",
   },
 ];
 
