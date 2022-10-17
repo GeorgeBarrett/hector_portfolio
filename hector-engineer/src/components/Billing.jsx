@@ -12,11 +12,14 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>Easily control your <br className="sm:block hidden" /> billing and invoicing</h2>
-      <p>
-        kuefkeuaflkawuhgluglauglaruhgaerhuguuaerhghaelguaugrauhrgareuhglaeugrlaeurglaergaeruglergaegraergeraheahrarerhear
-        kurgaeurglaeruhgluaerguhaerugharegiaeilrugilaeuhuilauhlguarlrgaergkaruhgakuhgkaruehgaeruhglkaeurhglkarugknaergkua
-        krgkaergkareugkaeurugkaerglaeruglkaerugalgralkugalkrugklaugkarugkaerrgleargukaergaerkerkugaergaruegaeugrarlkgurak
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum tempore aperiam mollitia inventore quos nam delectus minus modi tenetur at! Amet natus expedita cumque nihil culpa sed eligendi error omnis.
       </p>
+
+      <div className="flex flex-row flew-wrap sm:mt-10 mt-6">
+        <img src={apple} alt="apple__store" className="w-[128px] h-[43px] object-contain mr-5 cursor-pointer" />
+        <img src={google} alt="apple__store" className="w-[128px] h-[43px] object-contain cursor-pointer" />
+      </div>
     </div>
   </section>
 )
